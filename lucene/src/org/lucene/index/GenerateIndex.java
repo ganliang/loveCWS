@@ -15,7 +15,7 @@ import org.lucene.utils.QueryUtils;
 
 public class GenerateIndex {
 
-	public static String path = "d:/";
+	public static String path = "D:\360downloads";
 
 	public void index(boolean isEmpty) {
 		IndexWriter writer = IndexUtil.getWriter();
